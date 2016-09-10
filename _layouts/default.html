@@ -13,14 +13,6 @@
 
 
   <body>
-    <div class="header">
-      <ul class="nav nav-pills pull-right">
-        <li class="{{ page.cv }}"><a href="/cv" title="CV">CV</a></li>
-        <!-- <li class="{{ page.projects }}"><a href="/projects" title="Projects">Projects</a></li> -->
-        <li class="{{ page.blog }}"><a href="/blog" title="Blog">Blog</a></li>
-      </ul>
-      <h3 class="text-muted"><a href="/">Zeon Trevor Fernando</a></h3>
-    </div> 
     <!--<nav>
       <ul>
       <li><a href="/">Home</a></li>
@@ -28,12 +20,20 @@
       <li><a href="/blog">Blog</a></li>
       </ul>
     </nav>-->
+<!--container-->    
 <div class="container">
+    <!--header-->
+    <div class="header">
+      <ul class="nav nav-pills pull-right">
+        <li class="{{ page.cv }}"><a href="/cv" title="CV">CV</a></li>
+        <!-- <li class="{{ page.projects }}"><a href="/projects" title="Projects">Projects</a></li> -->
+        <li class="{{ page.blog }}"><a href="/blog" title="Blog">Blog</a></li>
+      </ul>
+      <h3 class="text-muted"><a href="/">Zeon Trevor Fernando</a></h3>
+    </div>
 
   {{ content }}
-
-</div>
-  
+  <!--footer-->
   <footer>
    <ul>
    <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:zeon.trevor@gmail.com">Email</a></li>
@@ -42,7 +42,9 @@
    <li><i class="fa fa-linkedin" aria-hidden="true"></i><a href="de.linkedin.com/in/zeonfernando">LinkedIn</a></li>
    </ul>
   </footer>
+</div>
+
   {% include scripts.html %}
-  </body>
+</body>
 
 </html>
