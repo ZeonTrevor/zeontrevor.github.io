@@ -14,8 +14,8 @@ blockquote p { font-size: 16px; line-height: 1.6em; }
 h3.text-muted a {text-decoration: none; color: #999999; }
 h3.text-muted a:hover { text-decoration: none; color: #0088cc; }
 
-footer > ul { font-size: 0.5em; padding: 0px; list-style: none;}
-footer > ul li { display: inline; margin-right: 20px; }
+.footer ul { font-size: 0.5em; padding: 0px; list-style: none;}
+.footer ul li { display: inline; margin-right: 20px; }
 
 /* Masthead */
 .header, .footer, .header h3 { font-family: 'Montserrat', Helvetica, sans-serif; text-transform: uppercase; font-weight: normal; }
