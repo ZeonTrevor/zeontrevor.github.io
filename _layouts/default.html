@@ -7,6 +7,7 @@
     
     <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/jumbotron-narrow.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     {% include analytics.html %}
   </head>
@@ -34,14 +35,23 @@
 
   {{ content }}
   <!--footer-->
-  <footer>
-   <ul>
-   <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:zeon.trevor@gmail.com"> Email</a></li>
-   <li><i class="fa fa-github" aria-hidden="true"></i><a href="https://github.com/ZeonTrevor"> ZeonTrevor</a></li>
-   <li><i class="fa fa-twitter" aria-hidden="true"></i><a href="https://twitter.com/zeonfernando"> zeonfernando</a></li>
-   <li><i class="fa fa-linkedin" aria-hidden="true"></i><a href="de.linkedin.com/in/zeonfernando"> LinkedIn</a></li>
-   </ul>
-  </footer>
+  <div class="footer">
+    <div class="row">
+      <div class="col-sm-8">
+      <p><small>&copy; zeontrevor 2016</small></p>
+      </div>
+      <div class="col-sm-4">
+      <p class="pull-right">
+           <ul>
+             <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:zeon.trevor@gmail.com"> Email</a></li>
+             <li><i class="fa fa-github" aria-hidden="true"></i><a href="https://github.com/ZeonTrevor"> ZeonTrevor</a></li>
+             <li><i class="fa fa-twitter" aria-hidden="true"></i><a href="https://twitter.com/zeonfernando"> zeonfernando</a></li>
+             <li><i class="fa fa-linkedin" aria-hidden="true"></i><a href="de.linkedin.com/in/zeonfernando"> LinkedIn</a></li>
+           </ul>
+      </p>
+      </div>
+    </div>
+  </div>
 </div>
 
   {% include scripts.html %}
