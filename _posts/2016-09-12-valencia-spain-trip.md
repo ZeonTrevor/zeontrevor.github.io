@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Valencia, Spain Trip"
+title: "Valencia, Spain Reduced Mobility Travel"
 date: 2016-09-12
 ---
 
